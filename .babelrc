@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "env",
+    "es2017"
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "transform-react-jsx",
+    "transform-class-properties",
+    [
+      "transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+      }
+    ]
+  ]
+}

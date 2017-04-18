@@ -1,0 +1,46 @@
+{
+  "name": "@bossmodecg/management-react",
+  "version": "0.1.0",
+  "description": "BossmodeCG tools for the React-based management panel.",
+  "main": "dist",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@bossmodecg/client": "^0.1.0",
+    "axios": "^0.15.3",
+    "babel-polyfill": "^6.23.0",
+    "better-react-spinkit": "^2.0.0-6",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "react-helmet": "^5.0.1",
+    "react-responsive": "^1.2.7",
+    "url-parse": "^1.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2017": "^6.22.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "husky": "^0.13.2",
+    "jest": "^19.0.2"
+  },
+  "scripts": {
+    "test": "eslint src && jest --coverage",
+    "build": "babel src -d dist",
+    "prepublish": "npm run test && npm run build",
+    "precommit": "npm run test",
+    "prepush": "npm run test"
+  }
+}
