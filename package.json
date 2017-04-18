@@ -1,6 +1,6 @@
 {
   "name": "@bossmodecg/management-react",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "BossmodeCG tools for the React-based management panel.",
   "main": "dist",
   "license": "MIT",
@@ -10,7 +10,6 @@
   "dependencies": {
     "@bossmodecg/client": "^0.1.0",
     "axios": "^0.15.3",
-    "babel-polyfill": "^6.23.0",
     "better-react-spinkit": "^2.0.0-6",
     "lodash": "^4.17.4",
     "react": "^15.4.2",

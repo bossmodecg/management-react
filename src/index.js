@@ -1,7 +1,3 @@
-/* eslint-disable import/first */
-
-require("babel-polyfill");
-
 import Components from './components';
 import Widgets from './widgets';
 import {
