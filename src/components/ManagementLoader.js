@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import _ from 'lodash';
 
 import React from 'react';
@@ -124,9 +126,3 @@ export default class ManagementLoader extends React.Component {
     );
   }
 }
-
-ManagementLoader.propTypes = {
-  bossmodecgConfig: React.PropTypes.object.isRequired,
-  managementConfig: React.PropTypes.object.isRequired,
-  widgetSetup: React.PropTypes.object.isRequired
-};

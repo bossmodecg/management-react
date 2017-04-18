@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React from 'react';
 
 export default class If extends React.Component {
@@ -22,10 +24,3 @@ export default class If extends React.Component {
     return null;
   }
 }
-
-If.propTypes = {
-  condition: React.PropTypes.any,
-  then: React.PropTypes.element,
-  else: React.PropTypes.element,
-  children: React.PropTypes.element
-};

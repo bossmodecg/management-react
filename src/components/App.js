@@ -116,5 +116,5 @@ export default class App extends React.Component {
 App.propTypes = {
   bossmodecgClient: React.PropTypes.object.isRequired,
   managementConfig: React.PropTypes.object.isRequired,
-  widgetSetup: React.PropTypes.object.isRequired
+  widgetSetup: React.PropTypes.array.isRequired
 };
