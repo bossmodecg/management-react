@@ -71,16 +71,24 @@ export default class App extends React.Component {
           <Navbar.Collapse>
             <Nav pullRight>
               <NavItem>
-                <XS>xs</XS>
+                <XS>
+                  <span>xs</span>
+                </XS>
               </NavItem>
               <NavItem>
-                <SM>sm</SM>
+                <SM>
+                  <span>sm</span>
+                </SM>
               </NavItem>
               <NavItem>
-                <MD>md</MD>
+                <MD>
+                  <span>md</span>
+                </MD>
               </NavItem>
               <NavItem>
-                <LG>lg</LG>
+                <LG>
+                  <span>lg</span>
+                </LG>
               </NavItem>
               <NavItem href="https://github.com/eropple/bossmodecg">
                 Github
